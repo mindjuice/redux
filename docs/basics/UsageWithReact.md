@@ -8,7 +8,7 @@ We will use React to build our simple todo app.
 
 ## Installing React Redux
 
-[React bindings](https://github.com/gaearon/react-redux) are not included in Redux by default. You need to install them explicitly:
+The [React bindings](https://github.com/gaearon/react-redux) are not included in Redux by default. You need to install them explicitly:
 
 ```
 npm install --save react-redux
@@ -16,7 +16,7 @@ npm install --save react-redux
 
 ## Smart and Dumb Components
 
-React bindings for Redux embrace the idea of [dividing “smart” and “dumb” components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0).
+The React bindings for Redux embrace the idea of [dividing “smart” and “dumb” components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0).
 
 It is advisable that only top-level components of your app (such as route handlers) are aware of Redux. Components below them should be “dumb” and receive all data via props.
 
